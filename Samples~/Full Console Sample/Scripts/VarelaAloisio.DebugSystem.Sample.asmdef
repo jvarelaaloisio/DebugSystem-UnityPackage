@@ -1,0 +1,19 @@
+{
+    "name": "VarelaAloisio.DebugSystem.Sample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2a98a57d8cd87fa4f859a7078b44c36f",
+        "GUID:7472681ece86cd74ca037443fb5e6108",
+        "GUID:819f00907fd8b8948a8e0c18f2c9f2e1",
+        "GUID:602b71e690fd6714b9af390774e6b075"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
