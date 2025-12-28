@@ -5,10 +5,10 @@ using UnityEngine;
 
 namespace Plugins.DebugSystem.RuntimeData
 {
-	public class RuntimeDataView : MonoBehaviour
+	public class LiveFeed : MonoBehaviour
 	{
 		[SerializeField] private float frequency;
-		[SerializeField] private TextMeshProUGUI runtimePanel;
+		[SerializeField] private TMP_Text output;
 		private float _actualTime;
 		private IRetriever<string> _dataRetriever;
 		public bool IsRetrieving { get; private set; }
@@ -36,7 +36,7 @@ namespace Plugins.DebugSystem.RuntimeData
 			if (!dataWasRetrievedCorrectly)
 				information = string.Empty;
 
-			runtimePanel?.SetText(information);
+			output?.SetText(information);
 		}
 
 		public void AddRetriever(Func<string> getInformation)

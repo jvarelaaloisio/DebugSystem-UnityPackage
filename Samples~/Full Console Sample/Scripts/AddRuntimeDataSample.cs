@@ -10,19 +10,19 @@ namespace DebugSystem.Console.Samples.FullConsoleSample
 		{
 			if (Input.GetKeyDown(KeyCode.F1))
 			{
-				FindObjectOfType<RuntimeDataView>().AddRetriever(GetRandomInfo);
+				FindObjectOfType<LiveFeed>().AddRetriever(GetRandomInfo);
 			}
 			else if (Input.GetKeyDown(KeyCode.F3))
 			{
-				FindObjectOfType<RuntimeDataView>().RemoveRetriever(GetRandomInfo);
+				FindObjectOfType<LiveFeed>().RemoveRetriever(GetRandomInfo);
 			}
 			if (Input.GetKeyDown(KeyCode.F2))
 			{
-				FindObjectOfType<RuntimeDataView>().AddRetriever(GetRandomInfo2);
+				FindObjectOfType<LiveFeed>().AddRetriever(GetRandomInfo2);
 			}
 			else if (Input.GetKeyDown(KeyCode.F4))
 			{
-				FindObjectOfType<RuntimeDataView>().RemoveRetriever(GetRandomInfo2);
+				FindObjectOfType<LiveFeed>().RemoveRetriever(GetRandomInfo2);
 			}
 		}
 
