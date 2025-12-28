@@ -1,26 +1,33 @@
 {
-    "name": "com.jvarelaaloisio.debugging",
-    "displayName": "Debug System",
-    "description": "A powerful debugging system that allows for command use and runtime data follow.",
-    "version": "1.0.0",
-    "unity": "2020.3",
-    "author": {
-      "name": "Juan Pablo Varela Aloisio",
-      "email": "juampyvarela@gmail.com",
-      "url": "https://github.com/jvarelaaloisio"
-    },
-    "keywords": [
-      "debug",
-      "debugging",
-      "log",
-      "logging",
-      "debugsystem",
-      "debugconsole",
-      "console"
-    ],
-    "repository": {
-      "url": "https://github.com/jvarelaaloisio/DebugSystem-UnityPackage",
-      "type": "git"
-    },
-    "documentationUrl": ""
+  "name": "com.jvarelaaloisio.debugging",
+  "displayName": "Debug System",
+  "description": "A powerful debugging system that allows for command use and runtime data follow.",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "author": {
+    "name": "Juan Pablo Varela Aloisio",
+    "email": "juampyvarela@gmail.com",
+    "url": "https://github.com/jvarelaaloisio"
+  },
+  "keywords": [
+    "debug",
+    "debugging",
+    "log",
+    "logging",
+    "debugsystem",
+    "debugconsole",
+    "console"
+  ],
+  "repository": {
+    "url": "https://github.com/jvarelaaloisio/DebugSystem-UnityPackage",
+    "type": "git"
+  },
+  "documentationUrl": "",
+  "samples": [
+    {
+      "displayName": "Full Console (ugui)",
+      "description": "Implementations for a fully dynamic console with a live feed implemented",
+      "path": "Samples~/Full Console Sample"
+    }
+  ]
 }
