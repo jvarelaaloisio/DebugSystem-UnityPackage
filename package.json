@@ -2,7 +2,7 @@
   "name": "com.jvarelaaloisio.debugging",
   "displayName": "Debug System",
   "description": "A powerful debugging system that allows for command use and runtime data follow.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2020.3",
   "author": {
     "name": "Juan Pablo Varela Aloisio",
